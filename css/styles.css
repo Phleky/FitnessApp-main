@@ -11736,6 +11736,7 @@ html {
 
 #titulo-ejercicios{
   text-align: center;
+  margin-top: 140px;
 }
 
 .ejercicios{
@@ -11774,20 +11775,20 @@ html {
 
 }
 
-.navbar {
+/* .navbar {
   width: 100%;
   display: flex;
-  justify-content: flex-end; /* Alinea la barra de búsqueda y enlaces a la derecha */
+  justify-content: flex-end;
   align-items: center;
   padding: 10px 20px; 
-  background-color: #27232C; /* Color de fondo de la barra de navegación */
+  background-color: #27232C; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 0;
-  z-index: 1000; /*Esto evita que elemento con menor valor z-index se superpongan*/
-}
+  z-index: 1000; 
+} */
 
-.navbar-title{
+/* .navbar-title{
   justify-content: center;
   right: 20px;
 
@@ -11805,4 +11806,4 @@ html {
   text-decoration: none;
   margin-left: 20px;
   font-size: 16px;
-}
+} */
