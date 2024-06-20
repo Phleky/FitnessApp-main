@@ -16,20 +16,19 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/navbar.css" rel="stylesheet" />
 
     </head>
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <div class="navbar">
-                <input type="text" class="search-bar" placeholder="Buscar...">
-                <nav class="nav-links">
-                    <a href="index.html">Índice</a>
-                    <a href="nutricion.html">Dietas</a>
-                    <a href="tablasEjercicios.html">Ejercicios</a>
-                    <a href="index_2.php">Register/Login</a>
-                </nav>
-            </div>
+            <ul class="nav-links">
+                    <!-- <img src="assets/img/logo.png" class="logo">  -->
+                    <li><a href="#">Dashboard</a></li>
+                    <li class="center"><a href="nutricion.html">Dietas</a></li>
+                    <li class="upward"><a href="tablasEjercicios.html">Ejercicios</a></li>
+                    <li class="forward"><a href="#">Información</a></li>
+                </ul>
             <!-- Header-->
             <header class="py-5">
                 <div class="container px-5 pb-5">

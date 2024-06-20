@@ -10,7 +10,7 @@ function mostrarDatos() {
     // Validar que los campos no estén vacíos y sean números positivos
 
     if (edad > 0 && altura > 0 && peso > 0) {
-        let calorias
+        let calorias       
         if (sexo === 'masculino') {
              calorias = (10*peso)+(6.5*altura)-(5*edad)+5
         } else if (sexo === 'femenino') {
