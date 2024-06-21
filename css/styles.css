@@ -11739,6 +11739,13 @@ html {
   margin-top: 140px;
 }
 
+
+#titulo-tabla-ejercicios{
+  text-align: center;
+  margin-top: 70px;
+}
+
+
 .ejercicios{
   display: grid;
   grid-template-columns: 23% 23% 23% 23%;

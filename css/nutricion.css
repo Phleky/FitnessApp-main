@@ -9,6 +9,10 @@ body {
     height: 100vh; /* Altura completa de la ventana */
 }
 
+#titulo-ejercicios{
+  text-align: center;
+  margin-top: 120px;
+}
 .button-container {
     display: flex;
     flex-direction: row; /* Para alinear los botones verticalmente */
@@ -28,16 +32,16 @@ body {
     border-radius: 10px; 
     cursor: pointer; 
     transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Efecto de transición */ 
-    margin-top: 300px; 
+    margin-top: 500px; 
     display: flex; /* Utiliza flexbox */
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 
 }
 
 .nutri:hover {
-    background-color: white; /* Color de fondo cuando se pasa el cursor */
+    background-color: white; /* Color de fondo cuando se pasa el cursor */ 
     color: #6610f2;
     border-color: #6610f2;
 }
@@ -61,10 +65,11 @@ body {
     transform: translateX(-50%);
   }
 
-  .text-gradient {
+  .text-title {
     background: -webkit-linear-gradient(315deg, #80ff00 0%, #6610f2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin: auto;
   }
 
 header{
@@ -107,7 +112,7 @@ header{
   }
 
   .profile-img{
-    margin-top: 40px;
+    margin-top: 180px;
     mask-image: linear-gradient(
       white 55%, 
       transparent

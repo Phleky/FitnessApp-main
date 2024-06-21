@@ -31,8 +31,8 @@
 }
 .nav-links li{
   list-style: none;
-  margin: 0 12px;
-  letter-spacing: 3px;
+  margin: 0 0px;
+  letter-spacing: 2px;
 }
 .nav-links li a{
   position: relative;
