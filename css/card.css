@@ -23,6 +23,7 @@ h1 {
 	font-size: 5.25vmin;
 	text-align: center;
 	color: white;
+	transition: font-size 0.3s ease-in-out;
 }
 p {
 	font-size: max(10pt, 2.5vmin);
@@ -542,6 +543,7 @@ p {
   animation-duration: 0.7s;
   animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
   animation-fill-mode: backwards;
+
 }
 /* Pop In */
 .pop { animation-name: pop; }
@@ -617,4 +619,12 @@ p {
 }
 .delay-8 {
   animation-delay: 2.4s;
+}
+
+h1[class="animate slide-left pop delay-4"]{
+	max-width: 100%;
+	/* color: #80FF00 !important; */
+	font-size: 2rem;
+	font-family: "Raleway", sans-serif;
+	color: #B0B0B0;
 }
