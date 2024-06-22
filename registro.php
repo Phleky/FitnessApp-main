@@ -23,7 +23,7 @@
         }else{
             ?>
             <?php
-            include("index.php");
+            include("home.php");
         
           ?>
           <h1 class="bad">ERROR DE AUTENTIFICACION</h1>

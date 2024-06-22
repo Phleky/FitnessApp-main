@@ -27,7 +27,7 @@
                     <li><a href="#">Dashboard</a></li>
                     <li class="center"><a href="nutricion.html">Dietas</a></li>
                     <li class="upward"><a href="tablasEjercicios.html">Ejercicios</a></li>
-                    <li class="forward"><a href="#">Información</a></li>
+                    <li class="forward"><a href="index_2.html">Log</a></li>
                 </ul>
             <!-- Header-->
             <header class="py-5">
